@@ -4,7 +4,7 @@ import { User } from "../models/user.model.js";
 import { TempUser } from "../models/tempUser.model.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { generateUserID } from "../utils/generateUserID.js";
-import { generateOTP, sendOTP } from "../utils/generateOTp.js";
+import { generateOTP, sendOTP } from "../utils/generateOtp.js";
 import bcrypt from "bcrypt";
 
 const generateAccessAndRefreshTokens = async (userId) => {

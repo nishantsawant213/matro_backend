@@ -3,7 +3,7 @@ import { Language, } from "../models/language.model.js";
 import { Hobby } from "../models/hobby.model.js";
 import { EmployeeType } from "../models/employee.model.js";
 import { Occupation } from "../models/occupation.model.js";
-import { EducationField } from "../models/educationField.model.js";
+import { EducationField } from "../models/educationfield.model.js";
 import { Location } from "../models/location.model.js";
 
 import {
