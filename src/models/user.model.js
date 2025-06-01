@@ -3,7 +3,7 @@ import { Language } from "./language.model.js";
 import { Hobby } from "./hobby.model.js";
 import { EmployeeType } from "./employee.model.js";
 import { Occupation } from "./occupation.model.js";
-import { EducationField } from "./educationfield.model.js";
+import { EducationField } from "./educationField.model.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
