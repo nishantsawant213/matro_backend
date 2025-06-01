@@ -4,7 +4,7 @@ import { User } from "../../models/user.model.js";
 import { TempUser } from "../../models/tempUser.model.js";
 import { ApiResponse } from "../../utils/ApiResponse.js";
 import { generateUserID } from "../../utils/generateUserID.js";
-import { generateOTP, sendOTP } from "../../utils/generateOTp.js";
+import { generateOTP, sendOTP } from "../../utils/temp.js";
 import { generateAccessAndRefreshTokens } from "../user.controller.js"
 import bcrypt from "bcrypt";
 
